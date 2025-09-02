@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bitget"            # имя пакета — т.к. пакетная папка называется bitget
+version = "0.0.1"
+description = "Bitget v3 SDK (packaged)"
+requires-python = ">=3.9"
+
+[tool.setuptools]
+packages = ["bitget"]
