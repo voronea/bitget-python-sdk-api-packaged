@@ -9,4 +9,7 @@ description = "Bitget v3 SDK (packaged)"
 requires-python = ">=3.9"
 
 [tool.setuptools]
-packages = ["bitget"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["bitget*"]
